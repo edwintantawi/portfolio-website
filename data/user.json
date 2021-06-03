@@ -1,0 +1,360 @@
+{
+  "name": "Edwin Tantawi",
+  "status": "Front-End Web Developer",
+  "description": "I am a student from Indonesia, who focuses on web development, especially frontend web development.",
+  "navigations": [
+    {
+      "id": 1,
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "id": 2,
+      "name": "Resume",
+      "url": "/resume"
+    },
+    {
+      "id": 3,
+      "name": "Projects",
+      "url": "/projects"
+    },
+    {
+      "id": 4,
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "id": 5,
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Ui Ux design",
+      "description": "Develop a good user interface and user experience, with a beautiful and comfortable appearance",
+      "icon": ""
+    },
+    {
+      "id": 2,
+      "name": "Website dev",
+      "description": "Developing a website appearance based on design into a website that can be use. With good performance",
+      "icon": ""
+    },
+    {
+      "id": 3,
+      "name": "WebApps dev",
+      "description": "Developing a very well-functioning web applications, various features and performance",
+      "icon": ""
+    },
+    {
+      "id": 4,
+      "name": "Responsive design",
+      "description": "Develop a good Frontend design for mobile, tablet, desktop and all screen devices",
+      "icon": ""
+    },
+    {
+      "id": 5,
+      "name": "Best Performance",
+      "description": "Develop a good Performance website and web application for more better experience",
+      "icon": ""
+    },
+    {
+      "id": 6,
+      "name": "Progressive Web Apps",
+      "description": "Develop a Progressive web apps, create website and website with native apps experience",
+      "icon": ""
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML 5",
+      "icon": ""
+    },
+    {
+      "id": 2,
+      "name": "CSS 3",
+      "icon": ""
+    },
+    {
+      "id": 3,
+      "name": "Javascript",
+      "icon": ""
+    },
+    {
+      "id": 4,
+      "name": "TailwindCss",
+      "icon": ""
+    },
+    {
+      "id": 5,
+      "name": "Bootstrap 5",
+      "icon": ""
+    },
+    {
+      "id": 6,
+      "name": "Webpack 5",
+      "icon": ""
+    },
+    {
+      "id": 7,
+      "name": "React JS",
+      "icon": ""
+    },
+    {
+      "id": 8,
+      "name": "Next JS",
+      "icon": ""
+    },
+    {
+      "id": 9,
+      "name": "Firebase",
+      "icon": ""
+    },
+    {
+      "id": 10,
+      "name": "Git",
+      "icon": ""
+    },
+    {
+      "id": 11,
+      "name": "Github",
+      "icon": ""
+    },
+    {
+      "id": 12,
+      "name": "Progressive Web Apps",
+      "icon": ""
+    }
+  ],
+  "project": {
+    "title": "Project",
+    "desctiption": "some of the projects that I've worked on to completion with some of the technologies I have learned and mastered",
+    "contents": [
+      {
+        "id": 1,
+        "top": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fcookingbox.png?alt=media",
+        "name": "CookingBox",
+        "stack": "HTML, CSS, PWA",
+        "category": "Personal Project",
+        "url": "https://cookingboxs.netlify.app"
+      },
+      {
+        "id": 2,
+        "top": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fnetflix-clone.png?alt=media",
+        "name": "Netflix Clone",
+        "stack": "React JS, CSS, TMDB API",
+        "category": "Personal Project",
+        "url": "https://clone-netflix-web.netlify.app/"
+      },
+      {
+        "id": 3,
+        "top": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fwhatsapp-clone.png?alt=media",
+        "name": "Whatsapp Clone",
+        "stack": "React JS, CSS, Firebase",
+        "category": "Personal Project",
+        "url": "https://clone-whatsapp-web.netlify.app/"
+      },
+      {
+        "id": 4,
+        "top": false,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fweneeddev.png?alt=media",
+        "name": "WeNeedDev",
+        "stack": "HTML, CSS, Bootstrap 5",
+        "category": "Personal Project",
+        "url": "https://weneeddev.netlify.app/"
+      },
+      {
+        "id": 5,
+        "top": false,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fpinterest-clone.png?alt=media",
+        "name": "Pinterest Clone",
+        "stack": "React JS, CSS, Unsplash API",
+        "category": "Personal Project",
+        "url": "https://clone-pinterest-web.netlify.app/"
+      },
+      {
+        "id": 6,
+        "top": false,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fgoogle-clone.png?alt=media",
+        "name": "Google Clone",
+        "stack": "React JS, CSS, Google API",
+        "category": "Personal Project",
+        "url": "https://clone-google-web.netlify.app/"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Chat with me through some of the contacts you can call to get acquainted with each other.",
+    "contents": [
+      {
+        "id": 1,
+        "name": "WhatsApp",
+        "username": "+62 823 8838 6923",
+        "category": "Sosial Media",
+        "url": "https://wa.me/+6282388386923"
+      },
+      {
+        "id": 2,
+        "name": "Instagram",
+        "username": "@wintantawi",
+        "category": "Sosial Media",
+        "url": "https://instagram.com/wintantawi"
+      },
+      {
+        "id": 3,
+        "name": "Twitter",
+        "username": "@wintantawi",
+        "category": "Sosial Media",
+        "url": "https://twitter.com/wintantawi"
+      },
+      {
+        "id": 4,
+        "name": "Facebook",
+        "username": "Edwin Tantawi",
+        "category": "Sosial Media",
+        "url": "https://facebook.com/edwintantawi.5"
+      },
+      {
+        "id": 5,
+        "name": "Linkedin",
+        "username": "Edwin Tantawi",
+        "category": "Sosial Media",
+        "url": "https://www.linkedin.com/in/edwin-tantawi-909138193"
+      },
+      {
+        "id": 6,
+        "name": "Github",
+        "username": "edwintantawi",
+        "category": "Sosial Media",
+        "url": "https://github.com/edwintantawi"
+      },
+      {
+        "id": 7,
+        "name": "Gmail",
+        "username": "edwintantawi@gmail.com",
+        "category": "Email",
+        "url": "https://github.com/edwintantawi"
+      },
+      {
+        "id": 8,
+        "name": "Location",
+        "username": "Medan, Indonesia",
+        "category": "location",
+        "url": "https://github.com/edwintantawi"
+      }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "description": "Get acquainted further about me, story and biography of my life, so that we get to know each other better",
+    "contents": [
+      {
+        "id": 1,
+        "name": "My History",
+        "description": "Hi, hello, introduce my name is Edwin Tantawi, I am 18 years old now, I come from Indonesia, precisely in Deli Serdang district, North Sumatra. Now I am a student at STMIK Mikroskil majoring in Informatics Engineering located in the city of Medan, North Sumatra, Indonesia."
+      },
+      {
+        "id": 2,
+        "name": "What am i Doing",
+        "description": "Now I'm focusing on college, and deepening web development, especially Frontend web development, now I'm studying Webpack, React JS, Next JS and Typescript. I am also actively building my portfolio by building personal projects."
+      },
+      {
+        "id": 3,
+        "name": "What Next",
+        "description": "My goal now is to master Frontend and Backend and mobile technology and become a Fullstack Developer. So that I can build a solution to an existing problem easily. Even though it is not easy and it takes a long time, I believe I can achieve it if I practice and learn continuously."
+      },
+      {
+        "id": 4,
+        "name": "Dreams and Wishes",
+        "description": "I hope, I want to build a start-up company to advance the technology industry in my country, Indonesia, and be an inspiration to others to become a good mentor to guide others to create a better future."
+      }
+    ]
+  },
+  "resume": {
+    "title": "Resume",
+    "description": "explore my experiences, rewards, and education, as well as my activeness",
+    "contents": [
+      {
+        "id": 1,
+        "title": "Work Experience",
+        "contents": [
+          {
+            "id": 1,
+            "timestamp": "Present",
+            "name": "Develop personal projects",
+            "info": "Learning Progress",
+            "description": "Learn and gain skills through formal schools, online courses, and work on personal projects to hone skills"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Courses i Completed",
+        "contents": [
+          {
+            "id": 1,
+            "timestamp": "11 May 2021 - Present",
+            "name": "IDCamp 2021",
+            "info": "Back-end Learning Path",
+            "description": ""
+          },
+          {
+            "id": 2,
+            "timestamp": "28 Apr 2021 - 10 May 2021",
+            "name": "Baparekraf Developer Day 2021",
+            "info": "Front-End Learning Path",
+            "description": ""
+          },
+          {
+            "id": 3,
+            "timestamp": "20 Jul 2020 - 9 Aug 2020",
+            "name": "Baparekraf Developer Day 2020",
+            "info": "Front-end Learning Path",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Educational Level",
+        "contents": [
+          {
+            "id": 1,
+            "timestamp": "2020 - Present",
+            "name": "STMIK Mikroskil",
+            "info": "College",
+            "description": "Studying at STMIK Mikroskil, Indonesia by majoring in Informatics Engineering"
+          },
+          {
+            "id": 2,
+            "timestamp": "2017 - 2020",
+            "name": "SMK Methodist Tamora",
+            "info": "Vocational High School",
+            "description": "Demanding knowledge at the Methodist Junior high school Vocational School, Indonesia. By majoring in Computer Network Engineering"
+          },
+          {
+            "id": 3,
+            "timestamp": "2014 - 2017",
+            "name": "SMP Mehodist Tamora",
+            "info": "Junior high school",
+            "description": "Demanding knowledge at the Methodist Tamora Junior high school, Indonesia."
+          },
+          {
+            "id": 4,
+            "timestamp": "2008 - 2014",
+            "name": "SD Mehodist Tamoraa",
+            "info": "Elementary school",
+            "description": "Demanding knowledge at the Methodist Tamora Elementary school, Indonesia."
+          }
+        ]
+      }
+    ]
+  }
+}
