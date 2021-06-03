@@ -34,99 +34,99 @@
       "id": 1,
       "name": "Ui Ux design",
       "description": "Develop a good user interface and user experience, with a beautiful and comfortable appearance",
-      "icon": ""
+      "icon": "/services/service-uiux.svg"
     },
     {
       "id": 2,
       "name": "Website dev",
       "description": "Developing a website appearance based on design into a website that can be use. With good performance",
-      "icon": ""
+      "icon": "/services/service-website.svg"
     },
     {
       "id": 3,
       "name": "WebApps dev",
       "description": "Developing a very well-functioning web applications, various features and performance",
-      "icon": ""
+      "icon": "/services/service-webapps.svg"
     },
     {
       "id": 4,
       "name": "Responsive design",
       "description": "Develop a good Frontend design for mobile, tablet, desktop and all screen devices",
-      "icon": ""
+      "icon": "/services/service-rwd.svg"
     },
     {
       "id": 5,
       "name": "Best Performance",
       "description": "Develop a good Performance website and web application for more better experience",
-      "icon": ""
+      "icon": "/services/service-performance.svg"
     },
     {
       "id": 6,
       "name": "Progressive Web Apps",
       "description": "Develop a Progressive web apps, create website and website with native apps experience",
-      "icon": ""
+      "icon": "/services/service-pwa.svg"
     }
   ],
   "skills": [
     {
       "id": 1,
       "name": "HTML 5",
-      "icon": ""
+      "icon": "/skills/skill-html5.svg"
     },
     {
       "id": 2,
       "name": "CSS 3",
-      "icon": ""
+      "icon": "/skills/skill-css3.svg"
     },
     {
       "id": 3,
       "name": "Javascript",
-      "icon": ""
+      "icon": "/skills/skill-javascript.svg"
     },
     {
       "id": 4,
       "name": "TailwindCss",
-      "icon": ""
+      "icon": "/skills/skill-tailwindcss.svg"
     },
     {
       "id": 5,
-      "name": "Bootstrap 5",
-      "icon": ""
+      "name": "Bootstrap",
+      "icon": "/skills/skill-bootstrap.svg"
     },
     {
       "id": 6,
       "name": "Webpack 5",
-      "icon": ""
+      "icon": "/skills/skill-webpack.svg"
     },
     {
       "id": 7,
       "name": "React JS",
-      "icon": ""
+      "icon": "/skills/skill-reactjs.svg"
     },
     {
       "id": 8,
       "name": "Next JS",
-      "icon": ""
+      "icon": "/skills/skill-nextjs.svg"
     },
     {
       "id": 9,
       "name": "Firebase",
-      "icon": ""
+      "icon": "/skills/skill-firebase.svg"
     },
     {
       "id": 10,
       "name": "Git",
-      "icon": ""
+      "icon": "/skills/skill-git.svg"
     },
     {
       "id": 11,
       "name": "Github",
-      "icon": ""
+      "icon": "/skills/skill-github.svg"
     },
     {
       "id": 12,
       "name": "Progressive Web Apps",
-      "icon": ""
+      "icon": "/skills/skill-pwa.svg"
     }
   ],
   "project": {
@@ -195,6 +195,7 @@
     "contents": [
       {
         "id": 1,
+        "icon": "fab fa-whatsapp",
         "name": "WhatsApp",
         "username": "+62 823 8838 6923",
         "category": "Sosial Media",
@@ -202,6 +203,7 @@
       },
       {
         "id": 2,
+        "icon": "fab fa-instagram",
         "name": "Instagram",
         "username": "@wintantawi",
         "category": "Sosial Media",
@@ -209,6 +211,7 @@
       },
       {
         "id": 3,
+        "icon": "fab fa-twitter",
         "name": "Twitter",
         "username": "@wintantawi",
         "category": "Sosial Media",
@@ -216,6 +219,7 @@
       },
       {
         "id": 4,
+        "icon": "fab fa-facebook-f",
         "name": "Facebook",
         "username": "Edwin Tantawi",
         "category": "Sosial Media",
@@ -223,6 +227,7 @@
       },
       {
         "id": 5,
+        "icon": "fab fa-linkedin-in",
         "name": "Linkedin",
         "username": "Edwin Tantawi",
         "category": "Sosial Media",
@@ -230,6 +235,7 @@
       },
       {
         "id": 6,
+        "icon": "fab fa-github",
         "name": "Github",
         "username": "edwintantawi",
         "category": "Sosial Media",
@@ -237,6 +243,7 @@
       },
       {
         "id": 7,
+        "icon": "far fa-envelope",
         "name": "Gmail",
         "username": "edwintantawi@gmail.com",
         "category": "Email",
@@ -244,6 +251,7 @@
       },
       {
         "id": 8,
+        "icon": "far fa-compass",
         "name": "Location",
         "username": "Medan, Indonesia",
         "category": "location",
