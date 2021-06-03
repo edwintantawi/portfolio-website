@@ -13,7 +13,11 @@ module.exports = {
       black: '#181818',
       orange: '#F48F00',
     },
-    extend: {},
+    extend: {
+      backgroundImage: () => ({
+        'hero-pattern': 'url("/assets-hero.svg")',
+      }),
+    },
   },
   variants: {
     extend: {},
