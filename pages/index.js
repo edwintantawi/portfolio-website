@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <h1 className="max-w-[200px] mx-auto text-center">
+    <h1 className="max-w-[200px] mx-auto text-center text-black">
       Portfolio Website with Next JS + Tailwindcss
     </h1>
   );
