@@ -15,7 +15,11 @@ const AppSection = ({ title, closed, children }) => {
   };
 
   return (
-    <section className="py-16 lg:py-32 border-b border-light-gray border-opacity-80">
+    <section
+      className={`py-16 ${
+        closed ? 'lg:py-20' : 'lg:py-32'
+      } border-b border-light-gray border-opacity-80`}
+    >
       {splitTitleColor()}
       <AppDecoration type="threeline" closed={closed} />
       {children}
