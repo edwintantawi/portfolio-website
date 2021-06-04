@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.decoration::after {
+  content: '';
+  @apply hidden xl:block absolute top-0 -left-10 w-px h-60 bg-light-gray;
+}
+.decoration::before {
+  content: '';
+  @apply hidden xl:block absolute bottom-0 -right-10 w-px h-60 bg-light-gray;
+}
