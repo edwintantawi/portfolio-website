@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const AppDecoration = ({ type }) => {
+const AppDecoration = ({ type, closed }) => {
   switch (type) {
     case 'fixline':
       return (
@@ -10,7 +10,7 @@ const AppDecoration = ({ type }) => {
       );
     case 'threeline':
       return (
-        <div className="text-center mt-2 mb-5">
+        <div className={`text-center mt-2 ${closed ? 'mb-5' : 'mb-12'}`}>
           <span className="inline-block bg-orange w-px lg:w-[2px] h-6 lg:h-7" />
           <span className="inline-block bg-black w-px lg:w-[2px] h-6 lg:h-7 mx-[4px] -mb-2" />
           <span className="inline-block bg-orange w-px lg:w-[2px] h-6 lg:h-7" />
@@ -23,10 +23,12 @@ const AppDecoration = ({ type }) => {
 
 AppDecoration.propTypes = {
   type: PropTypes.oneOf(['fixline', 'threeline']),
+  closed: PropTypes.bool,
 };
 
 AppDecoration.defaultProps = {
   type: 'fixline',
+  closed: false,
 };
 
 export default AppDecoration;
