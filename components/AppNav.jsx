@@ -1,17 +1,41 @@
+import USER from '../data/user.json';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import USER from '../data/user.json';
+import { useEffect, useState } from 'react';
 
 const AppNav = () => {
+  const [isActiveNav, setIsActiveNav] = useState(false);
   const pathname = useRouter().pathname;
 
   const activeLink = (url) => {
-    const className = url === pathname && 'font-semibold hover:text-black';
+    const className = url === pathname && 'font-semibold hover:!text-black';
     return className;
   };
 
+  const handleWindowScroll = (event) => {
+    const pageScrollPosition = window.pageYOffset;
+    const targetPosition = 180;
+    if (pageScrollPosition >= targetPosition) {
+      setIsActiveNav(true);
+    } else {
+      setIsActiveNav(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleWindowScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleWindowScroll);
+    };
+  }, []);
+
   return (
-    <nav className="flex items-center justify-between fixed top-0 w-full px-3 2xl:px-20 py-3">
+    <nav
+      className={`flex items-center justify-between fixed top-0 z-50 w-full px-3 2xl:px-20 py-3 transition duration-300 ${
+        isActiveNav && 'bg-white'
+      }`}
+    >
       <Link href="/">
         <a className="inline-block">
           <img
