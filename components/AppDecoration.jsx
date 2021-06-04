@@ -10,10 +10,10 @@ const AppDecoration = ({ type }) => {
       );
     case 'threeline':
       return (
-        <div className="text-center mt-2">
-          <span className="inline-block bg-orange w-[3px] h-7" />
-          <span className="inline-block bg-black w-[3px] h-7 mx-[3px] -mb-2" />
-          <span className="inline-block bg-orange w-[3px] h-7" />
+        <div className="text-center mt-2 mb-5">
+          <span className="inline-block bg-orange w-px lg:w-[2px] h-6 lg:h-7" />
+          <span className="inline-block bg-black w-px lg:w-[2px] h-6 lg:h-7 mx-[4px] -mb-2" />
+          <span className="inline-block bg-orange w-px lg:w-[2px] h-6 lg:h-7" />
         </div>
       );
     default:
