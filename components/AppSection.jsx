@@ -7,7 +7,7 @@ const AppSection = ({ title, children }) => {
     const titleStart = titleBase.slice(0, -1).join(' ');
     const titleEnd = titleBase.pop();
     return (
-      <h2 className="text-2xl font-bold text-center">
+      <h2 className="text-xl lg:text-2xl font-bold text-center">
         {titleStart}
         <span className="text-orange"> {titleEnd}</span>
       </h2>
@@ -15,7 +15,7 @@ const AppSection = ({ title, children }) => {
   };
 
   return (
-    <section>
+    <section className="py-14 lg:py-20 border-b border-light-gray">
       {splitTitleColor()}
       <AppDecoration type="threeline" />
       {children}
