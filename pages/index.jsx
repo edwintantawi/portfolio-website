@@ -42,11 +42,11 @@ const Home = () => {
           </div>
         </AppSection>
         <AppSection title="SKILLS & TECHNOLOGY">
-          <div className="flex flex-wrap justify-center space-x-2 md:space-x-3">
+          <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
             {USER.skills.map((item) => (
               <div
                 key={item.id}
-                className="flex items-center py-2 px-3 border border-light-gray rounded-lg mb-2 md:mb-3"
+                className="flex items-center py-3 px-3 border border-light-gray rounded-lg"
               >
                 <img
                   src={item.icon}
