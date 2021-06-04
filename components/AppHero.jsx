@@ -1,7 +1,7 @@
 import DATA from '../data/user.json';
-import Link from 'next/link';
 import AppContainer from '../components/AppContainer';
 import AppDecoration from './AppDecoration';
+import AppButton from './AppButton';
 
 const AppHero = () => {
   return (
@@ -22,13 +22,7 @@ const AppHero = () => {
           <p className="text-xs lg:text-sm text-gray max-w-sm tracking-widest mt-2">
             {DATA.description}
           </p>
-          <Link href="/contact">
-            <a className="inline-block w-max p-2 border border-light-gray mt-6">
-              <span className="text-xs lg:text-sm font-bold text-white inline-block py-3 px-9  bg-orange">
-                GET IN TOUCH
-              </span>
-            </a>
-          </Link>
+          <AppButton title="GET IN TOUCH" href="/contact" />
         </div>
       </AppContainer>
     </header>
