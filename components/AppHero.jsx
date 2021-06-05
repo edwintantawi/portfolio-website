@@ -4,7 +4,7 @@ import AppButton from './AppButton';
 
 const AppHero = () => {
   return (
-    <header className="bg-hero-pattern bg-center bg-cover">
+    <header className="bg-hero-pattern bg-center">
       <AppContainer>
         <div className="h-screen flex flex-col justify-center pt-16 items-center text-center lg:items-start lg:text-left">
           <span className="text-xs md:text-sm text-black flex items-center">
