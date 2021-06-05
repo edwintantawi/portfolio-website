@@ -13,7 +13,7 @@ const AppNav = () => {
     const className =
       url === pathname
         ? 'font-semibold hover:text-white md:hover:text-black bg-orange text-white md:text-black'
-        : 'bg-light-gray bg-opacity-30 hover:text-gray';
+        : 'bg-light-gray bg-opacity-30 hover:text-orange';
     return className;
   };
 
