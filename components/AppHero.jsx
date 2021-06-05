@@ -1,17 +1,15 @@
 import DATA from '../data/user.json';
 import AppContainer from '../components/AppContainer';
-import AppDecoration from './AppDecoration';
 import AppButton from './AppButton';
 
 const AppHero = () => {
   return (
     <header className="bg-hero-pattern bg-center bg-cover">
-      <AppDecoration />
       <AppContainer>
         <div className="h-screen flex flex-col justify-center pt-16 items-center text-center lg:items-start lg:text-left">
           <span className="text-xs md:text-sm text-black flex items-center">
             <span>Hi, I'm</span>
-            <span className="hidden w-1/12 h-1 bg-orange ml-2 rounded-lg" />
+            <span className="block w-6 lg:w-11 h-1 bg-orange ml-2 rounded-lg" />
           </span>
           <h1 className="text-5xl lg:text-8xl font-bold text-black">
             {DATA.name}
