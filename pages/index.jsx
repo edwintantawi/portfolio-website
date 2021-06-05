@@ -65,13 +65,13 @@ const Home = () => {
           </div>
         </AppSection>
         <AppSection title="PROJECTS I HAVE COMPLETED">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6">
             {USER.project.contents
               .filter((filteredItem) => filteredItem.top)
               .map((item) => (
                 <div
                   key={item.id}
-                  className="bg-white border border-light-gray rounded-lg px-6 pt-6 text-center overflow-hidden"
+                  className="bg-white border border-light-gray rounded-lg px-4 pt-6 text-center overflow-hidden"
                 >
                   <div className="mb-3">
                     <a
@@ -89,7 +89,7 @@ const Home = () => {
                     <img
                       src={item.image}
                       alt={item.name}
-                      className="w-full h-auto transition duration-300 transform translate-y-3 hover:translate-y-0 shadow-xl"
+                      className="w-full h-auto transition duration-300 transform translate-y-5 hover:translate-y-0 shadow-xl "
                     />
                   </div>
                 </div>
@@ -111,3 +111,24 @@ const Home = () => {
 };
 
 export default Home;
+
+//  <div
+//    key={item.id}
+//    className="bg-white border border-light-gray rounded-lg px-4 pt-6 text-center overflow-hidden"
+//  >
+//    <div className="mb-3">
+//      <a href={item.url} target="_blank" rel="noopener noreferrer">
+//        <h3 className="text-black text-base lg:text-xl font-semibold transition duration-300 hover:text-orange">
+//          {item.name}
+//        </h3>
+//      </a>
+//      <p className="text-gray text-xs">{item.stack}</p>
+//    </div>
+//    <div>
+//      <img
+//        src={item.image}
+//        alt={item.name}
+//        className="w-full h-auto transition duration-300 transform translate-y-3 hover:translate-y-0 shadow-xl "
+//      />
+//    </div>
+//  </div>;
