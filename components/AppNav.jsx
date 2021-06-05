@@ -48,9 +48,9 @@ const AppNav = () => {
       }`}
     >
       <div
-        className={`flex items-center justify-between w-full z-50 ${
+        className={`flex items-center justify-between w-full z-50 transition duration-500 ${
           isActiveToggler && 'bg-white'
-        } px-3 md:px-0 py-3 md:py-0`}
+        } ${isActiveNav && 'bg-white'} px-3 md:px-0 py-3 md:py-0`}
       >
         <Link href="/">
           <a className="inline-block">
@@ -67,10 +67,10 @@ const AppNav = () => {
 
       <ul
         className={`flex transform transition duration-500 absolute md:static 
-        top-[80px] bg-white md:bg-transparent left-3 right-3 border md:border-none border-light-gray p-8 md:p-0 space-y-4 md:space-y-0 flex-col md:flex-row space-x-0 md:space-x-14 rounded-xl z-10
+         bg-white md:bg-transparent left-3 right-3 border md:border-none border-light-gray p-8 md:p-0 space-y-4 md:space-y-0 flex-col md:flex-row space-x-0 md:space-x-14 rounded-xl z-10
         ${
           isActiveToggler
-            ? 'translate-y-0'
+            ? 'translate-y-[220px]'
             : 'translate-y-[-100vh] md:translate-y-0'
         }`}
       >
@@ -90,8 +90,9 @@ const AppNav = () => {
       </ul>
 
       <div
-        className={`fixed h-screen top-16 bottom-0 left-0 right-0 backdrop-filter backdrop-blur-lg invisible transition duration-500 ${
-          isActiveToggler && 'bg-black bg-opacity-50 visible'
+        className={`fixed h-screen top-16 bottom-0 left-0 right-0 invisible transition duration-500 ${
+          isActiveToggler &&
+          'bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg visible'
         }`}
       />
     </nav>
