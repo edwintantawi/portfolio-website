@@ -8,7 +8,7 @@ const AppSide = () => {
           {USER.contact.contents
             .filter((filteredItem) => filteredItem.category === 'Social Media')
             .map((item) => (
-              <li className="w-max">
+              <li key={item.id} className="w-max">
                 <a
                   href={item.url}
                   target="_blank"
@@ -29,6 +29,7 @@ const AppSide = () => {
         {[USER.contact.contents.find((item) => item.category === 'Email')].map(
           (item) => (
             <a
+              key={item.id}
               href={`mailto:${item.username}`}
               className="text-gray transition duration-300 hover:text-orange tracking-widest"
               style={{ writingMode: 'tb-rl' }}
