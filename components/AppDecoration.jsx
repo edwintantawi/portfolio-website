@@ -11,9 +11,9 @@ const AppDecoration = ({ type, closed }) => {
     case 'threeline':
       return (
         <div className={`text-center mt-2 ${closed ? 'mb-5' : 'mb-12'}`}>
-          <span className="inline-block bg-orange w-px lg:w-[2px] h-6 lg:h-7" />
-          <span className="inline-block bg-black w-px lg:w-[2px] h-6 lg:h-7 mx-[4px] -mb-2" />
-          <span className="inline-block bg-orange w-px lg:w-[2px] h-6 lg:h-7" />
+          <span className="inline-block bg-orange w-[2px] lg:w-[2px] h-8 lg:h-9" />
+          <span className="inline-block bg-black w-[2px] lg:w-[2px] h-8 lg:h-9 mx-1 lg:mx-[5px] -mb-2" />
+          <span className="inline-block bg-orange w-[2px] lg:w-[2px] h-8 lg:h-9" />
         </div>
       );
     default:
