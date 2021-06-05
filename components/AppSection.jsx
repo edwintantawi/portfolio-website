@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import AppDecoration from './AppDecoration';
 
-const AppSection = ({ title, closed, children }) => {
+const AppSection = ({ title, closed, children, decoration }) => {
   const splitTitleColor = () => {
     const titleBase = title.split(' ');
     const titleStart = titleBase.slice(0, -1).join(' ');
@@ -21,7 +21,7 @@ const AppSection = ({ title, closed, children }) => {
       } border-b border-light-gray border-opacity-80`}
     >
       {splitTitleColor()}
-      <AppDecoration type="threeline" closed={closed} />
+      {decoration && <AppDecoration type="threeline" closed={closed} />}
       {children}
     </section>
   );
@@ -30,6 +30,7 @@ const AppSection = ({ title, closed, children }) => {
 AppSection.propTypes = {
   title: PropTypes.string,
   closed: PropTypes.bool,
+  decoration: PropTypes.bool,
   children: PropTypes.oneOfType([
     PropTypes.node,
     PropTypes.arrayOf(PropTypes.node),
@@ -39,6 +40,7 @@ AppSection.propTypes = {
 AppSection.defaultProps = {
   title: '',
   closed: false,
+  decoration: true,
 };
 
 export default AppSection;
