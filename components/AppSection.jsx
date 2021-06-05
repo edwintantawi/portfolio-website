@@ -7,7 +7,7 @@ const AppSection = ({ title, closed, children, decoration }) => {
     const titleStart = titleBase.slice(0, -1).join(' ');
     const titleEnd = titleBase.pop();
     return (
-      <h2 className="text-xl lg:text-2xl font-bold text-center">
+      <h2 className="text-2xl lg:text-4xl font-bold text-center">
         {titleStart}
         <span className="text-orange"> {titleEnd}</span>
       </h2>
@@ -16,7 +16,7 @@ const AppSection = ({ title, closed, children, decoration }) => {
 
   return (
     <section
-      className={`py-16 ${
+      className={`py-20 ${
         closed ? 'lg:py-20' : 'lg:py-32'
       } border-b border-light-gray border-opacity-80`}
     >
