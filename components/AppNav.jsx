@@ -19,7 +19,7 @@ const AppNav = () => {
 
   const handleWindowScroll = (event) => {
     const pageScrollPosition = window.pageYOffset;
-    const targetPosition = 180;
+    const targetPosition = 20;
     if (pageScrollPosition >= targetPosition) {
       setIsActiveNav(true);
     } else {
