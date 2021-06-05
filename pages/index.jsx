@@ -7,12 +7,16 @@ import AppSection from '../components/AppSection';
 import AppContainer from '../components/AppContainer';
 import AppCtaSection from '../components/AppCtaSection';
 import AppFooter from '../components/AppFooter';
+import AppDecoration from '../components/AppDecoration';
+import AppSide from '../components/AppSide';
 
 const Home = () => {
   return (
     <div>
       <AppHead />
       <AppNav />
+      <AppDecoration />
+      <AppSide />
       <AppHero />
       <AppContainer>
         <AppSection title="WHAT CAN I DO">
@@ -94,7 +98,7 @@ const Home = () => {
           <div className="text-center py-7">
             <Link href="/project">
               <a className="text-xs md:text-sm text-gray transition duration-300 hover:text-orange">
-                Show all my projects <i class="fas fa-chevron-right" />
+                Show all my projects <i className="fas fa-chevron-right" />
               </a>
             </Link>
           </div>
