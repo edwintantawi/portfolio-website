@@ -74,7 +74,7 @@ const Home = () => {
               ))}
           </div>
           <div className="text-center py-7">
-            <Link href="/project">
+            <Link href="/projects">
               <a className="text-xs md:text-sm text-gray transition duration-300 hover:text-orange">
                 Show all my projects <i className="fas fa-chevron-right" />
               </a>
