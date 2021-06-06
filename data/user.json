@@ -247,7 +247,7 @@
         "name": "Gmail",
         "username": "edwintantawi@gmail.com",
         "category": "Email",
-        "url": "https://github.com/edwintantawi"
+        "url": "mailto:edwintantawi@gmail.com"
       },
       {
         "id": 8,
@@ -255,7 +255,7 @@
         "name": "Location",
         "username": "Medan, Indonesia",
         "category": "location",
-        "url": "https://github.com/edwintantawi"
+        "url": "https://www.google.com/maps/place/Medan,+Medan+City,+North+Sumatra/@3.6422838,98.5994534,12z/data=!3m1!4b1!4m5!3m4!1s0x303131cc1c3eb2fd:0x23d431c8a6908262!8m2!3d3.5951956!4d98.6722227"
       }
     ]
   },
@@ -298,7 +298,8 @@
             "timestamp": "Present",
             "name": "Develop personal projects",
             "info": "Learning Progress",
-            "description": "Learn and gain skills through formal schools, online courses, and work on personal projects to hone skills"
+            "description": "Learn and gain skills through formal schools, online courses, and work on personal projects to hone skills",
+            "url": "#"
           }
         ]
       },
@@ -311,21 +312,66 @@
             "timestamp": "11 May 2021 - Present",
             "name": "IDCamp 2021",
             "info": "Back-end Learning Path",
-            "description": ""
+            "description": "Scholarship to study programming at Dicoding Academy from Indosat Ooredoo, and complete the following classes:",
+            "url": "https://idcamp.indosatooredoo.com/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Belajar Dasar Pemrograman JavaScript",
+                "level": "Beginner",
+                "url": "https://www.dicoding.com/certificates/RVZK4QLMMPD5"
+              },
+              {
+                "id": 2,
+                "name": "Belajar Membuat Aplikasi Back-End untuk Pemula",
+                "level": "Beginner",
+                "url": "https://www.dicoding.com/certificates/MEPJ504OLP3V"
+              }
+            ]
           },
           {
             "id": 2,
             "timestamp": "28 Apr 2021 - 10 May 2021",
             "name": "Baparekraf Developer Day 2021",
             "info": "Front-End Learning Path",
-            "description": ""
+            "description": "Scholarship to study programming at Dicoding Academy from Kemenparekraf Indonesia, and complete the following classes:",
+            "url": "https://bdd.kemenparekraf.go.id/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Menjadi Front-End Web Developer Expert",
+                "level": "Expert",
+                "url": "https://www.dicoding.com/certificates/81P21DGOJZOY"
+              }
+            ]
           },
           {
             "id": 3,
             "timestamp": "20 Jul 2020 - 9 Aug 2020",
             "name": "Baparekraf Developer Day 2020",
             "info": "Front-end Learning Path",
-            "description": ""
+            "description": "Scholarship to study programming at Dicoding Academy from Kemenparekraf Indonesia, and complete the following classes:",
+            "url": "https://bdd.kemenparekraf.go.id/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Belajar Dasar Pemrograman Web",
+                "level": "Beginner",
+                "url": "https://www.dicoding.com/certificates/1RXY46WJ9PVM"
+              },
+              {
+                "id": 2,
+                "name": "Belajar Fundamental Front-End Web Development",
+                "level": "Intermediate",
+                "url": "https://www.dicoding.com/certificates/JMZVM9OJ3ZN9"
+              },
+              {
+                "id": 3,
+                "name": "Membangun Progressive Web Apps",
+                "level": "Expert",
+                "url": "https://www.dicoding.com/certificates/JMZVM9OJNZN9"
+              }
+            ]
           }
         ]
       },
@@ -338,28 +384,32 @@
             "timestamp": "2020 - Present",
             "name": "STMIK Mikroskil",
             "info": "College",
-            "description": "Studying at STMIK Mikroskil, Indonesia by majoring in Informatics Engineering"
+            "description": "Studying at STMIK Mikroskil, Indonesia by majoring in Informatics Engineering",
+            "url": "https://mikroskil.ac.id/"
           },
           {
             "id": 2,
             "timestamp": "2017 - 2020",
             "name": "SMK Methodist Tamora",
             "info": "Vocational High School",
-            "description": "Demanding knowledge at the Methodist Junior high school Vocational School, Indonesia. By majoring in Computer Network Engineering"
+            "description": "Demanding knowledge at the Methodist Junior high school Vocational School, Indonesia. By majoring in Computer Network Engineering",
+            "url": "https://web.facebook.com/methodist.tamora?_rdc=1&_rdr"
           },
           {
             "id": 3,
             "timestamp": "2014 - 2017",
             "name": "SMP Mehodist Tamora",
             "info": "Junior high school",
-            "description": "Demanding knowledge at the Methodist Tamora Junior high school, Indonesia."
+            "description": "Demanding knowledge at the Methodist Tamora Junior high school, Indonesia.",
+            "url": "https://web.facebook.com/methodist.tamora?_rdc=1&_rdr"
           },
           {
             "id": 4,
             "timestamp": "2008 - 2014",
             "name": "SD Mehodist Tamoraa",
             "info": "Elementary school",
-            "description": "Demanding knowledge at the Methodist Tamora Elementary school, Indonesia."
+            "description": "Demanding knowledge at the Methodist Tamora Elementary school, Indonesia.",
+            "url": "https://web.facebook.com/methodist.tamora?_rdc=1&_rdr"
           }
         ]
       }

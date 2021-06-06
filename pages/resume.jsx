@@ -1,44 +1,54 @@
 import USER from '../data/user.json';
 import AppHead from '../components/AppHead';
-import AppNav from '../components/AppNav';
-import AppDecoration from '../components/AppDecoration';
-import AppSide from '../components/AppSide';
-import AppContainer from '../components/AppContainer';
 import AppHeader from '../components/AppHeader';
 import AppSection from '../components/AppSection';
 import AppTimeline from '../components/AppTimeline';
 import AppCtaSection from '../components/AppCtaSection';
 import AppFooter from '../components/AppFooter';
+import AppShell from '../components/AppShell';
 
 const Resume = () => {
   return (
-    <div>
-      <AppHead />
-      <AppNav />
-      <AppDecoration />
-      <AppSide />
-      <AppContainer>
-        <AppHeader
-          title={USER.resume.title}
-          description={USER.resume.description}
-        />
-        {USER.resume.contents.map((item) => (
-          <AppSection key={item.id} title={item.title}>
-            {item.contents.map((subItem) => (
-              <AppTimeline
-                timeline={subItem.timestamp}
-                title={subItem.name}
-                subTitle={subItem.info}
-              >
-                {subItem.description}
-              </AppTimeline>
-            ))}
-          </AppSection>
-        ))}
-        <AppCtaSection />
-        <AppFooter />
-      </AppContainer>
-    </div>
+    <AppShell
+      title={`Edwin Tantawi | ${USER.resume.title}`}
+      description={USER.resume.description}
+      keyword="resume, education, course, skill"
+    >
+      <AppHeader
+        title={USER.resume.title}
+        description={USER.resume.description}
+      />
+      {USER.resume.contents.map((item) => (
+        <AppSection key={item.id} title={item.title} closed>
+          {item.contents.map((subItem) => (
+            <AppTimeline item={subItem}>
+              {subItem.description}
+              {subItem.list ? (
+                <ul className="mt-4">
+                  {subItem.list.map((item) => (
+                    <li className="list-disc list-inside mb-2">
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:text-orange"
+                        title={item.level}
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                ''
+              )}
+            </AppTimeline>
+          ))}
+        </AppSection>
+      ))}
+      <AppCtaSection />
+      <AppFooter />
+    </AppShell>
   );
 };
 

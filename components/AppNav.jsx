@@ -12,7 +12,7 @@ const AppNav = () => {
   const activeLink = (url) => {
     const className =
       url === pathname
-        ? 'font-semibold hover:text-white md:hover:text-black bg-orange text-white md:text-black'
+        ? 'font-bold text-white hover:text-white md:hover:text-orange md:text-orange bg-orange '
         : 'bg-light-gray bg-opacity-30 hover:text-orange';
     return className;
   };
@@ -78,7 +78,7 @@ const AppNav = () => {
           <li key={item.id}>
             <Link href={item.url}>
               <a
-                className={`text-sm text-center transition block py-3 md:py-0 rounded-lg md:bg-transparent  ${activeLink(
+                className={`text-sm text-center transition block py-3 md:py-0 rounded-lg md:bg-transparent tracking-widest ${activeLink(
                   item.url
                 )}`}
               >

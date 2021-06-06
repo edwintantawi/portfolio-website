@@ -9,6 +9,7 @@ import AppCtaSection from '../components/AppCtaSection';
 import AppFooter from '../components/AppFooter';
 import AppDecoration from '../components/AppDecoration';
 import AppSide from '../components/AppSide';
+import AppProject from '../components/AppProject';
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
       <AppSide />
       <AppHero />
       <AppContainer>
-        <AppSection title="WHAT CAN I DO">
+        <AppSection title="What can i do">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-4">
             {USER.services.map((item) => (
               <div
@@ -45,7 +46,7 @@ const Home = () => {
             ))}
           </div>
         </AppSection>
-        <AppSection title="SKILLS & TECHNOLOGY">
+        <AppSection title="Skill's & Technology">
           <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
             {USER.skills.map((item) => (
               <div
@@ -64,35 +65,12 @@ const Home = () => {
             ))}
           </div>
         </AppSection>
-        <AppSection title="PROJECTS I HAVE COMPLETED">
+        <AppSection title="Projects's i have Complated">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6">
             {USER.project.contents
               .filter((filteredItem) => filteredItem.top)
               .map((item) => (
-                <div
-                  key={item.id}
-                  className="bg-white border border-light-gray rounded-lg px-4 pt-6 text-center overflow-hidden"
-                >
-                  <div className="mb-3">
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <h3 className="text-black text-base lg:text-xl font-semibold transition duration-300 hover:text-orange">
-                        {item.name}
-                      </h3>
-                    </a>
-                    <p className="text-gray text-xs">{item.stack}</p>
-                  </div>
-                  <div>
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      className="w-full h-auto transition duration-300 transform translate-y-5 hover:translate-y-0 shadow-xl "
-                    />
-                  </div>
-                </div>
+                <AppProject project={item} />
               ))}
           </div>
           <div className="text-center py-7">
