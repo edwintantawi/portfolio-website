@@ -131,7 +131,7 @@
   ],
   "project": {
     "title": "Project",
-    "desctiption": "some of the projects that I've worked on to completion with some of the technologies I have learned and mastered",
+    "desctiption": "some of the projects that I've worked on to completion with some of the technologies",
     "contents": [
       {
         "id": 1,
@@ -191,7 +191,7 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "Chat with me through some of the contacts you can call to get acquainted with each other.",
+    "description": "Chat with me through some of the contacts you can call to get acquainted.",
     "contents": [
       {
         "id": 1,
@@ -261,7 +261,7 @@
   },
   "about": {
     "title": "About",
-    "description": "Get acquainted further about me, story and biography of my life, so that we get to know each other better",
+    "description": "Get acquainted further about me, story and biography of my life",
     "contents": [
       {
         "id": 1,
