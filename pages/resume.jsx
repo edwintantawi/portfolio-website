@@ -6,6 +6,7 @@ import AppTimeline from '../components/AppTimeline';
 import AppCtaSection from '../components/AppCtaSection';
 import AppFooter from '../components/AppFooter';
 import AppShell from '../components/AppShell';
+import AppSignature from '../components/AppSignature';
 
 const Resume = () => {
   return (
@@ -19,9 +20,9 @@ const Resume = () => {
         description={USER.resume.description}
       />
       {USER.resume.contents.map((item) => (
-        <AppSection key={item.id} title={item.title} closed>
+        <AppSection key={item.id} title={item.title} className="py-0">
           {item.contents.map((subItem) => (
-            <AppTimeline item={subItem}>
+            <AppTimeline key={subItem.id} item={subItem}>
               {subItem.description}
               {subItem.list ? (
                 <ul className="mt-4">
@@ -46,6 +47,7 @@ const Resume = () => {
           ))}
         </AppSection>
       ))}
+      <AppSignature />
       <AppCtaSection />
       <AppFooter />
     </AppShell>

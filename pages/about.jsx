@@ -18,8 +18,8 @@ const About = () => {
         description={USER.about.description}
       />
       {USER.about.contents.map((item) => (
-        <AppSection key={item.id} title={item.name} closed>
-          <p className="text-gray text-sm md:text-base text-center max-w-2xl mx-auto">
+        <AppSection key={item.id} title={item.name}>
+          <p className="text-gray text-xs md:text-base text-center max-w-2xl lg:mx-auto">
             {item.description}
           </p>
         </AppSection>

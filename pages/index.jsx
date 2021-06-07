@@ -10,6 +10,7 @@ import AppFooter from '../components/AppFooter';
 import AppDecoration from '../components/AppDecoration';
 import AppSide from '../components/AppSide';
 import AppProject from '../components/AppProject';
+import AppSignature from '../components/AppSignature';
 
 const Home = () => {
   return (
@@ -70,7 +71,7 @@ const Home = () => {
             {USER.project.contents
               .filter((filteredItem) => filteredItem.top)
               .map((item) => (
-                <AppProject project={item} />
+                <AppProject key={item.id} project={item} />
               ))}
           </div>
           <div className="text-center py-7">
@@ -81,6 +82,7 @@ const Home = () => {
             </Link>
           </div>
         </AppSection>
+        <AppSignature />
         <AppCtaSection />
         <AppFooter />
       </AppContainer>
