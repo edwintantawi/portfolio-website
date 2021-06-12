@@ -27,7 +27,7 @@ const Resume = () => {
               {subItem.list ? (
                 <ul className="mt-4">
                   {subItem.list.map((item) => (
-                    <li className="list-disc list-inside mb-2">
+                    <li key={item.id} className="list-disc list-inside mb-2">
                       <a
                         href={item.url}
                         target="_blank"
