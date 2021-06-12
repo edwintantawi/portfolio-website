@@ -186,6 +186,15 @@
         "stack": "React JS, CSS, Google API",
         "category": "Personal Project",
         "url": "https://clone-google-web.netlify.app/"
+      },
+      {
+        "id": 7,
+        "top": false,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Ftodonesia.png?alt=media",
+        "name": "Todonesia",
+        "stack": "React JS, Firebase, StyledComponent",
+        "category": "Personal Project",
+        "url": "https://todonesia.netlify.app/"
       }
     ]
   },
