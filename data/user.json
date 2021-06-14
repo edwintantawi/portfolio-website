@@ -317,7 +317,7 @@
         "title": "Courses i Completed",
         "contents": [
           {
-            "id": 1,
+            "id": 4,
             "timestamp": "11 May 2021 - Present",
             "name": "IDCamp 2021",
             "info": "Back-end Learning Path",
@@ -339,6 +339,22 @@
             ]
           },
           {
+            "id": 3,
+            "timestamp": " 15 Mar 2021 - Present",
+            "name": "Cloud and Back-End Developer Scholarship Program",
+            "info": "Cloud Computing AWS",
+            "description": "Scholarship to study Cloud and Backend at Dicoding Academy from AWS, and complete the following classes:",
+            "url": "https://aws.dicoding.com/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+                "level": "Beginner",
+                "url": "https://www.dicoding.com/certificates/0LZ0DY5RRX65"
+              }
+            ]
+          },
+          {
             "id": 2,
             "timestamp": "28 Apr 2021 - 10 May 2021",
             "name": "Baparekraf Developer Day 2021",
@@ -355,7 +371,7 @@
             ]
           },
           {
-            "id": 3,
+            "id": 1,
             "timestamp": "20 Jul 2020 - 9 Aug 2020",
             "name": "Baparekraf Developer Day 2020",
             "info": "Front-end Learning Path",
