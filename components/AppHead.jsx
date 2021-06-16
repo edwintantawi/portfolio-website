@@ -10,12 +10,21 @@ const AppHead = ({ title, description, keyword, image }) => {
         name="keywords"
         content={`Edwin Tantawi, Edwin, Tantawi, edwintantawi, edwintantawi, wintantawi, web developer, portfolio, frontend developer, web developer, frontend enginer, indonesia, ${keyword}`}
       />
-      <link rel="shortcut icon" href="/icon-192x192.png" type="image/x-icon" />
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/apple-touch-icon.png"
+      ></link>
       <link rel="manifest" href="/manifest.json" />
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
+      <meta
+        name="google-site-verification"
+        content="x_NCP81pzq_UseKnMEM1WLiZnzW-zbT8uW-qbscQUJM"
+      />
     </Head>
   );
 };
