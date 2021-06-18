@@ -12,7 +12,7 @@ const AppProject = ({ project }) => {
         </a>
         <p className="text-gray text-xs">{project.stack}</p>
       </div>
-      <div>
+      <div className="shadow-xl">
         <Image
           src={project.image}
           alt={project.name}
@@ -20,7 +20,7 @@ const AppProject = ({ project }) => {
           width={100}
           height={60}
           quality={40}
-          className="transition duration-300 transform translate-y-5 hover:translate-y-0 shadow-xl "
+          className="transition duration-300 transform translate-y-5 hover:translate-y-0 "
         />
       </div>
     </div>
