@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.edwintantawi.vercel.app/sitemap.xml
+Sitemap: https://edwintantawi.vercel.app/sitemap.xml
