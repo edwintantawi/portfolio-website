@@ -24,7 +24,7 @@ const Contact = () => {
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center border border-light-gray rounded-lg py-6 px-4 hover:shadow-lg"
+              className="flex flex-col items-center border border-light-gray rounded-lg py-6 px-4 transition duration-300 hover:shadow-lg"
             >
               <div className="w-12 h-12 rounded-full border border-orange grid place-items-center">
                 <i className={`${item.icon} text-xl`} />
