@@ -17,6 +17,7 @@ const AppHead = ({ title, description, keyword, image }) => {
         href="/apple-touch-icon.png"
       ></link>
       <link rel="manifest" href="/manifest.json" />
+      <meta name="theme-color" content="#FFFFFF" />
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
