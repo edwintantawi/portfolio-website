@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Image from 'next/image';
 
 const AppProject = ({ project }) => {
   return (
@@ -12,10 +13,14 @@ const AppProject = ({ project }) => {
         <p className="text-gray text-xs">{project.stack}</p>
       </div>
       <div>
-        <img
+        <Image
           src={project.image}
           alt={project.name}
-          className="w-full h-auto transition duration-300 transform translate-y-5 hover:translate-y-0 shadow-xl "
+          layout="responsive"
+          width={100}
+          height={60}
+          quality={40}
+          className="transition duration-300 transform translate-y-5 hover:translate-y-0 shadow-xl "
         />
       </div>
     </div>
