@@ -1,8 +1,8 @@
-import USER from '../data/user.json';
+import USER from '../../data/user.json';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import AppToggle from './AppToggle';
+import AppToggle from '../atomics/AppToggle';
 
 const AppNav = () => {
   const [isActiveNav, setIsActiveNav] = useState(false);

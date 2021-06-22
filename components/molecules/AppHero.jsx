@@ -1,8 +1,7 @@
-import DATA from '../data/user.json';
-import AppContainer from '../components/AppContainer';
-import AppButton from './AppButton';
+import DATA from '../../data/user.json';
+import AppContainer from '../atomics/AppContainer';
+import AppButton from '../atomics/AppButton';
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
 
 const AppHero = () => {
   return (

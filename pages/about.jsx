@@ -1,10 +1,7 @@
 import USER from '../data/user.json';
-import AppShell from '../components/AppShell';
-import AppHeader from '../components/AppHeader';
-import AppSection from '../components/AppSection';
-import AppCtaSection from '../components/AppCtaSection';
-import AppFooter from '../components/AppFooter';
-import AppSignature from '../components/AppSignature';
+import AppShell from '../components/templates/AppShell';
+import AppHeader from '../components/organisms/AppHeader';
+import AppSection from '../components/molecules/AppSection';
 
 const About = () => {
   return (
@@ -24,9 +21,6 @@ const About = () => {
           </p>
         </AppSection>
       ))}
-      <AppSignature />
-      <AppCtaSection />
-      <AppFooter />
     </AppShell>
   );
 };

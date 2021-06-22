@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import AppSection from './AppSection';
+import AppSection from '../molecules/AppSection';
 
 const AppHeader = ({ title, description }) => {
   const splitTitleCharColor = (title) => {

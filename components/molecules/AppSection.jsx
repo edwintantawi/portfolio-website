@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import AppDecoration from './AppDecoration';
+import AppDecoration from '../atomics/AppDecoration';
 
 const AppSection = ({
   title,

@@ -1,26 +1,13 @@
 import USER from '../data/user.json';
 import Link from 'next/link';
-import AppHead from '../components/AppHead';
-import AppNav from '../components/AppNav';
-import AppHero from '../components/AppHero';
-import AppSection from '../components/AppSection';
-import AppContainer from '../components/AppContainer';
-import AppCtaSection from '../components/AppCtaSection';
-import AppFooter from '../components/AppFooter';
-import AppDecoration from '../components/AppDecoration';
-import AppSide from '../components/AppSide';
-import AppProject from '../components/AppProject';
-import AppSignature from '../components/AppSignature';
+import AppSection from '../components/molecules/AppSection';
+import AppProject from '../components/atomics/AppProject';
+import AppShell from '../components/templates/AppShell';
 
 const Home = () => {
   return (
     <div>
-      <AppHead />
-      <AppNav />
-      <AppDecoration />
-      <AppSide />
-      <AppHero />
-      <AppContainer>
+      <AppShell hero>
         <AppSection title="What can i do">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-4">
             {USER.services.map((item) => (
@@ -82,10 +69,7 @@ const Home = () => {
             </Link>
           </div>
         </AppSection>
-        <AppSignature />
-        <AppCtaSection />
-        <AppFooter />
-      </AppContainer>
+      </AppShell>
     </div>
   );
 };

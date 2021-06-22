@@ -1,9 +1,7 @@
 import USER from '../data/user.json';
-import AppFooter from '../components/AppFooter';
-import AppShell from '../components/AppShell';
-import AppSignature from '../components/AppSignature';
-import AppSection from '../components/AppSection';
-import AppHeader from '../components/AppHeader';
+import AppShell from '../components/templates/AppShell';
+import AppSection from '../components/molecules/AppSection';
+import AppHeader from '../components/organisms/AppHeader';
 
 const Contact = () => {
   return (
@@ -11,6 +9,7 @@ const Contact = () => {
       title={`Edwin Tantawi | ${USER.contact.title}`}
       description={USER.contact.description}
       keyword={'contact me, contact, social media'}
+      cta={false}
     >
       <AppHeader
         title={USER.contact.title}
@@ -35,8 +34,6 @@ const Contact = () => {
           ))}
         </div>
       </AppSection>
-      <AppSignature />
-      <AppFooter />
     </AppShell>
   );
 };

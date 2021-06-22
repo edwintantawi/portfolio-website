@@ -1,4 +1,4 @@
-import AppButton from './AppButton';
+import AppButton from '../atomics/AppButton';
 
 const AppCtaSection = () => {
   return (

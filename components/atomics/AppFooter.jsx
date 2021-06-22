@@ -1,4 +1,4 @@
-import USER from '../data/user.json';
+import USER from '../../data/user.json';
 
 const AppFooter = () => {
   const handleCopyrightYears = () => {

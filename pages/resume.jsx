@@ -1,12 +1,8 @@
 import USER from '../data/user.json';
-import AppHead from '../components/AppHead';
-import AppHeader from '../components/AppHeader';
-import AppSection from '../components/AppSection';
-import AppTimeline from '../components/AppTimeline';
-import AppCtaSection from '../components/AppCtaSection';
-import AppFooter from '../components/AppFooter';
-import AppShell from '../components/AppShell';
-import AppSignature from '../components/AppSignature';
+import AppHeader from '../components/organisms/AppHeader';
+import AppSection from '../components/molecules/AppSection';
+import AppTimeline from '../components/atomics/AppTimeline';
+import AppShell from '../components/templates/AppShell';
 
 const Resume = () => {
   return (
@@ -47,9 +43,6 @@ const Resume = () => {
           ))}
         </AppSection>
       ))}
-      <AppSignature />
-      <AppCtaSection />
-      <AppFooter />
     </AppShell>
   );
 };

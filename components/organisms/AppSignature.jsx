@@ -1,4 +1,4 @@
-import AppSection from './AppSection';
+import AppSection from '../molecules/AppSection';
 
 const AppSignature = () => {
   return (

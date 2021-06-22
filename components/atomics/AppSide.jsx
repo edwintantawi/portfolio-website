@@ -1,4 +1,4 @@
-import USER from '../data/user.json';
+import USER from '../../data/user.json';
 import Fade from 'react-reveal/Fade';
 
 const AppSide = () => {

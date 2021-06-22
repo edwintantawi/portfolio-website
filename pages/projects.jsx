@@ -1,11 +1,8 @@
 import USER from '../data/user.json';
-import AppHeader from '../components/AppHeader';
-import AppShell from '../components/AppShell';
-import AppSection from '../components/AppSection';
-import AppProject from '../components/AppProject';
-import AppCtaSection from '../components/AppCtaSection';
-import AppFooter from '../components/AppFooter';
-import AppSignature from '../components/AppSignature';
+import AppHeader from '../components/organisms/AppHeader';
+import AppShell from '../components/templates/AppShell';
+import AppSection from '../components/molecules/AppSection';
+import AppProject from '../components/atomics/AppProject';
 
 const Project = () => {
   return (
@@ -25,9 +22,6 @@ const Project = () => {
           ))}
         </div>
       </AppSection>
-      <AppSignature />
-      <AppCtaSection />
-      <AppFooter />
     </AppShell>
   );
 };
