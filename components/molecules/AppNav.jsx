@@ -43,7 +43,7 @@ const AppNav = () => {
 
   return (
     <nav
-      className={`flex items-center justify-between fixed top-0 z-50 w-full max-w-[1905px] transform right-1/2 translate-x-1/2 md:px-10 2xl:px-20 md:py-3 transition duration-300 ${
+      className={`flex items-center justify-between fixed top-0 z-40 w-full max-w-[1905px] transform right-1/2 translate-x-1/2 md:px-10 2xl:px-20 md:py-3 transition duration-500 ${
         isActiveNav && 'bg-white'
       }`}
     >
