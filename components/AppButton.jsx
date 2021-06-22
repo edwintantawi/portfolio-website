@@ -1,18 +1,14 @@
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 
-const AppButton = ({ title, href, className, color }) => {
+const AppButton = ({ title, href, className }) => {
   return (
     <Link href={href}>
       <a
-        className={`inline-block w-max p-2 border border-light-gray mt-6 ${className}`}
+        className={`inline-block w-max p-2 mt-6 border border-light-gray ${className}`}
       >
         <span
-          className={`text-xs lg:text-sm text-center font-bold ${
-            color === 'white' ? 'text-orange' : 'text-white'
-          } inline-block py-3 px-9 ${
-            color === 'white' ? 'bg-white' : 'bg-orange'
-          } hover:text-white transition duration-300 min-w-[200px] hover:bg-black`}
+          className={`inline-block min-w-[200px] text-xs lg:text-sm text-center font-bold  py-3 px-9 bg-orange hover:bg-black text-white hover:text-white transition duration-300 `}
         >
           {title}
         </span>
@@ -25,14 +21,12 @@ AppButton.propTypes = {
   title: PropTypes.string,
   href: PropTypes.string,
   className: PropTypes.string,
-  color: PropTypes.string,
 };
 
 AppButton.defaultProps = {
   title: 'BUTTON',
   href: '/',
   className: '',
-  color: 'orange',
 };
 
 export default AppButton;
