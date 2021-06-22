@@ -90,9 +90,9 @@ const AppNav = () => {
       </ul>
 
       <div
-        className={`fixed h-screen top-16 bottom-0 left-0 right-0 invisible transition duration-500 ${
-          isActiveToggler &&
-          'bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg visible'
+        onClick={handleToggler}
+        className={`fixed h-screen top-16 bottom-0 left-0 right-0 transition duration-500 invisible bg-black bg-opacity-80 ${
+          isActiveToggler && 'visible'
         }`}
       />
     </nav>
