@@ -1,7 +1,6 @@
 import AppButton from '../atomics/AppButton';
 
-const AppCtaSection = () => {
-  return (
+const AppCtaSection = () => (
     <section className="py-20 border-b border-light-gray">
       <div className="text-center">
         <h2 className="text-4xl lg:text-5xl font-bold text-black">
@@ -16,6 +15,5 @@ const AppCtaSection = () => {
       </div>
     </section>
   );
-};
 
 export default AppCtaSection;

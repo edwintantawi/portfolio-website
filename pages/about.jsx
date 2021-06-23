@@ -3,8 +3,7 @@ import AppShell from '../components/templates/AppShell';
 import AppHeader from '../components/organisms/AppHeader';
 import AppSection from '../components/molecules/AppSection';
 
-const About = () => {
-  return (
+const About = () => (
     <AppShell
       title={`Edwin Tantawi | ${USER.about.title}`}
       description={USER.about.description}
@@ -23,6 +22,5 @@ const About = () => {
       ))}
     </AppShell>
   );
-};
 
 export default About;

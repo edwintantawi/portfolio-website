@@ -1,7 +1,6 @@
 import AppSection from '../molecules/AppSection';
 
-const AppSignature = () => {
-  return (
+const AppSignature = () => (
     <AppSection decoration={false}>
       <div className="text-center">
         <p className="text-gray text-xs md:text-sm">
@@ -13,6 +12,5 @@ const AppSignature = () => {
       </div>
     </AppSection>
   );
-};
 
 export default AppSignature;

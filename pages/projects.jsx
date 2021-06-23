@@ -4,8 +4,7 @@ import AppShell from '../components/templates/AppShell';
 import AppSection from '../components/molecules/AppSection';
 import AppProject from '../components/atomics/AppProject';
 
-const Project = () => {
-  return (
+const Project = () => (
     <AppShell
       title={`Edwin Tantawi | ${USER.project.title}`}
       description={USER.project.desctiption}
@@ -24,6 +23,5 @@ const Project = () => {
       </AppSection>
     </AppShell>
   );
-};
 
 export default Project;

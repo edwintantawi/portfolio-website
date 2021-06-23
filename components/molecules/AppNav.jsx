@@ -1,13 +1,14 @@
-import USER from '../../data/user.json';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
+import USER from '../../data/user.json';
 import AppToggle from '../atomics/AppToggle';
 
 const AppNav = () => {
   const [isActiveNav, setIsActiveNav] = useState(false);
   const [isActiveToggler, setIsActiveToggler] = useState(false);
-  const pathname = useRouter().pathname;
+  const { pathname } = useRouter();
 
   const activeLink = (url) => {
     const className =
@@ -17,7 +18,7 @@ const AppNav = () => {
     return className;
   };
 
-  const handleWindowScroll = (event) => {
+  const handleWindowScroll = () => {
     const pageScrollPosition = window.pageYOffset;
     const targetPosition = 20;
     if (pageScrollPosition >= targetPosition) {
@@ -52,12 +53,13 @@ const AppNav = () => {
           isActiveToggler && 'bg-white'
         } ${isActiveNav && 'bg-white'} px-3 md:px-0 py-3 md:py-0`}
       >
-        <Link href="/">
-          <a className="inline-block">
-            <img
+        <Link href="/" passHref>
+          <a className="flex items-center">
+            <Image
               src="/edwintantawi.svg"
               alt="Edwin Tantawi"
-              className="w-10 h-10  object-contain"
+              width={40}
+              height={40}
             />
           </a>
         </Link>
@@ -76,7 +78,7 @@ const AppNav = () => {
       >
         {USER.navigations.map((item) => (
           <li key={item.id}>
-            <Link href={item.url}>
+            <Link href={item.url} passHref>
               <a
                 className={`text-sm text-center transition block py-3 md:py-0 rounded-lg md:bg-transparent tracking-widest ${activeLink(
                   item.url
@@ -91,6 +93,7 @@ const AppNav = () => {
 
       <div
         onClick={handleToggler}
+        aria-hidden="true"
         className={`fixed h-screen top-16 bottom-0 left-0 right-0 transition duration-500 invisible bg-black bg-opacity-80 ${
           isActiveToggler && 'visible'
         }`}

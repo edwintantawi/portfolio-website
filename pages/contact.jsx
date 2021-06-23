@@ -3,12 +3,11 @@ import AppShell from '../components/templates/AppShell';
 import AppSection from '../components/molecules/AppSection';
 import AppHeader from '../components/organisms/AppHeader';
 
-const Contact = () => {
-  return (
+const Contact = () => (
     <AppShell
       title={`Edwin Tantawi | ${USER.contact.title}`}
       description={USER.contact.description}
-      keyword={'contact me, contact, social media'}
+      keyword="contact me, contact, social media"
       cta={false}
     >
       <AppHeader
@@ -36,6 +35,5 @@ const Contact = () => {
       </AppSection>
     </AppShell>
   );
-};
 
 export default Contact;
