@@ -1,4 +1,3 @@
 Sitemap: https://www.edwintantawi.vercel.app/sitemap.xml
 
 User-agent: *
-Allow: /
