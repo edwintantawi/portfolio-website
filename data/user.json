@@ -135,7 +135,7 @@
     "contents": [
       {
         "id": 1,
-        "top": true,
+        "top": false,
         "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fcookingbox.png?alt=media",
         "name": "CookingBox",
         "stack": "HTML, CSS, PWA",
@@ -144,7 +144,7 @@
       },
       {
         "id": 2,
-        "top": true,
+        "top": false,
         "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fnetflix-clone.png?alt=media",
         "name": "Netflix Clone",
         "stack": "React JS, CSS, TMDB API",
@@ -189,12 +189,21 @@
       },
       {
         "id": 7,
-        "top": false,
+        "top": true,
         "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Ftodonesia.png?alt=media",
         "name": "Todonesia",
         "stack": "React JS, Firebase, StyledComponent",
         "category": "Personal Project",
         "url": "https://todonesia.netlify.app/"
+      },
+      {
+        "id": 8,
+        "top": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fdevsantara.png?alt=media",
+        "name": "Devsantara",
+        "stack": "Next JS, Firebase, StyledComponent",
+        "category": "Personal Project",
+        "url": "https://devsantara.vercel.app/"
       }
     ]
   },
