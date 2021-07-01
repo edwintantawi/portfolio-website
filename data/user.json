@@ -360,6 +360,12 @@
                 "name": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
                 "level": "Beginner",
                 "url": "https://www.dicoding.com/certificates/0LZ0DY5RRX65"
+              },
+              {
+                "id": 2,
+                "name": "Architecting on AWS (Membangun Arsitektur Cloud di AWS)",
+                "level": "Intermediate",
+                "url": "https://www.dicoding.com/certificates/N9ZODGK66PG5"
               }
             ]
           },
