@@ -349,6 +349,22 @@
           },
           {
             "id": 3,
+            "timestamp": "28 Apr 2021 - 10 May 2021",
+            "name": "Baparekraf Developer Day 2021",
+            "info": "Front-End Learning Path",
+            "description": "Scholarship to study programming at Dicoding Academy from Kemenparekraf Indonesia, and complete the following classes:",
+            "url": "https://bdd.kemenparekraf.go.id/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Menjadi Front-End Web Developer Expert",
+                "level": "Expert",
+                "url": "https://www.dicoding.com/certificates/81P21DGOJZOY"
+              }
+            ]
+          },
+          {
+            "id": 2,
             "timestamp": " 15 Mar 2021 - 01 Jul 2021",
             "name": "Cloud and Back-End Developer Scholarship Program",
             "info": "Cloud Computing AWS",
@@ -366,22 +382,6 @@
                 "name": "Architecting on AWS (Membangun Arsitektur Cloud di AWS)",
                 "level": "Intermediate",
                 "url": "https://www.dicoding.com/certificates/N9ZODGK66PG5"
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "timestamp": "28 Apr 2021 - 10 May 2021",
-            "name": "Baparekraf Developer Day 2021",
-            "info": "Front-End Learning Path",
-            "description": "Scholarship to study programming at Dicoding Academy from Kemenparekraf Indonesia, and complete the following classes:",
-            "url": "https://bdd.kemenparekraf.go.id/",
-            "list": [
-              {
-                "id": 1,
-                "name": "Menjadi Front-End Web Developer Expert",
-                "level": "Expert",
-                "url": "https://www.dicoding.com/certificates/81P21DGOJZOY"
               }
             ]
           },
