@@ -4,7 +4,7 @@ import AppContainer from '../atomics/AppContainer';
 import AppButton from '../atomics/AppButton';
 
 const AppHero = () => (
-  <header className="bg-hero-pattern bg-center px-3">
+  <header className="bg-hero-pattern bg-no-repeat bg-center px-3">
     <AppContainer>
       <Fade duration={2000}>
         <div className="h-screen flex flex-col justify-center pt-16 items-center text-center lg:items-start lg:text-left">
