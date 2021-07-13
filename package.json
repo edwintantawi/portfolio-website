@@ -10,6 +10,7 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "firebase": "^8.7.1",
     "next": "^11.0.0",
     "next-pwa": "^5.2.21",
     "prop-types": "^15.7.2",
