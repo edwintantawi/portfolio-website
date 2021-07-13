@@ -18,7 +18,7 @@ const AppHero = () => (
           <h2 className="text-xl lg:text-4xl font-bold text-orange mt-2">
             [{DATA.status}]
           </h2>
-          <p className="text-xs lg:text-sm text-gray max-w-sm tracking-widest mt-2">
+          <p className="text-xs lg:text-base text-gray max-w-md tracking-widest mt-2 lg:mt-3 md:ml-1">
             {DATA.description}
           </p>
           <AppButton title="GET IN TOUCH" href="/contact" />
