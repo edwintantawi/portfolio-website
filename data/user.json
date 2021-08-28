@@ -293,7 +293,7 @@
       {
         "id": 1,
         "name": "My History",
-        "description": "Hi, hello, introduce my name is Edwin Tantawi, I am 18 years old now, I come from Indonesia, precisely in Deli Serdang district, North Sumatra. Now I am a student at STMIK Mikroskil majoring in Informatics Engineering located in the city of Medan, North Sumatra, Indonesia."
+        "description": "Hi, hello, introduce my name is Edwin Tantawi, I come from Indonesia, precisely in Deli Serdang district, North Sumatra. Now I am a student at STMIK Mikroskil majoring in Informatics Engineering located in the city of Medan, North Sumatra, Indonesia."
       },
       {
         "id": 2,
@@ -431,9 +431,9 @@
           {
             "id": 1,
             "timestamp": "2020 - Present",
-            "name": "STMIK Mikroskil",
+            "name": "Mikroskil University",
             "info": "College",
-            "description": "Studying at STMIK Mikroskil, Indonesia by majoring in Informatics Engineering",
+            "description": "Studying at Mikroskil University, Indonesia by majoring in Informatics Engineering",
             "url": "https://mikroskil.ac.id/"
           },
           {
