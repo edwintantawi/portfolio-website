@@ -20,11 +20,16 @@
     },
     {
       "id": 4,
+      "name": "Articles",
+      "url": "https://edwintantawi.medium.com/"
+    },
+    {
+      "id": 5,
       "name": "About",
       "url": "/about"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Contact",
       "url": "/contact"
     }
