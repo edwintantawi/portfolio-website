@@ -13,7 +13,7 @@ const AppNav = () => {
   const activeLink = (url) => {
     const className =
       url === pathname
-        ? 'font-bold text-white hover:text-white md:hover:text-orange md:text-orange bg-orange '
+        ? 'font-bold text-white hover:text-white lg:hover:text-orange lg:text-orange bg-orange '
         : 'bg-light-gray bg-opacity-30 hover:text-orange';
     return className;
   };
@@ -68,19 +68,19 @@ const AppNav = () => {
       </div>
 
       <ul
-        className={`flex transform transition duration-500 absolute md:static 
-         bg-white md:bg-transparent left-3 right-3 border md:border-none border-light-gray p-8 md:p-0 space-y-4 md:space-y-0 flex-col md:flex-row space-x-0 md:space-x-14 rounded-xl z-10
+        className={`flex transform transition duration-500 absolute lg:static 
+         bg-white lg:bg-transparent left-3 right-3 border lg:border-none border-light-gray p-8 lg:p-0 space-y-4 lg:space-y-0 flex-col lg:flex-row space-x-0 lg:space-x-14 rounded-xl z-10
         ${
           isActiveToggler
-            ? 'translate-y-[220px]'
-            : 'translate-y-[-100vh] md:translate-y-0'
+            ? 'translate-y-[250px]'
+            : 'translate-y-[-100vh] lg:translate-y-0'
         }`}
       >
         {USER.navigations.map((item) => (
           <li key={item.id}>
             <Link href={item.url} passHref>
               <a
-                className={`text-sm text-center transition block py-3 md:py-0 rounded-lg md:bg-transparent tracking-widest ${activeLink(
+                className={`text-sm text-center transition block py-3 lg:py-0 rounded-lg lg:bg-transparent tracking-widest ${activeLink(
                   item.url
                 )}`}
               >

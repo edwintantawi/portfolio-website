@@ -5,7 +5,7 @@ const AppToggle = ({ active, onClick }) => (
     href="#menu"
     aria-label="menu"
     onClick={onClick}
-    className="flex md:hidden flex-col w-8 h-8 space-y-[6px] justify-center"
+    className="flex lg:hidden flex-col w-8 h-8 space-y-[6px] justify-center"
     style={{ WebkitTapHighlightColor: 'transparent' }}
   >
     <span
