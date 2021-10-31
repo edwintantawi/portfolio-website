@@ -340,6 +340,28 @@
         "title": "Courses I Completed",
         "contents": [
           {
+            "id": 5,
+            "timestamp": "1 Oct 2021 - 1 Jan 2022",
+            "name": "Insentif Program Referral AWS",
+            "info": "Dicoding Academy",
+            "description": "AWS Referral Program Incentives 90 days of learning opportunities at Dicoding, and complete the following classes:",
+            "url": "https://aws.dicoding.com/",
+            "list": [
+              {
+                "id": 1,
+                "name": "Belajar Fundamental Aplikasi Back-End",
+                "level": "Intermediate",
+                "url": "https://www.dicoding.com/certificates/72ZDEJ0LVPYW"
+              },
+              {
+                "id": 2,
+                "name": "Menjadi Back-End Developer Expert [ onGoing ]",
+                "level": "Expert",
+                "url": "https://www.dicoding.com/academies/276"
+              }
+            ]
+          },
+          {
             "id": 4,
             "timestamp": "11 May 2021 - 4 Aug 2021",
             "name": "IDCamp 2021",
