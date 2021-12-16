@@ -341,7 +341,7 @@
         "contents": [
           {
             "id": 5,
-            "timestamp": "1 Oct 2021 - 1 Jan 2022",
+            "timestamp": "1 Oct 2021 - 14 Dec 2021",
             "name": "Insentif Program Referral AWS",
             "info": "Dicoding Academy",
             "description": "AWS Referral Program Incentives 90 days of learning opportunities at Dicoding, and complete the following classes:",
@@ -355,9 +355,9 @@
               },
               {
                 "id": 2,
-                "name": "Menjadi Back-End Developer Expert [ onGoing ]",
+                "name": "Menjadi Back-End Developer Expert",
                 "level": "Expert",
-                "url": "https://www.dicoding.com/academies/276"
+                "url": "https://www.dicoding.com/certificates/JLX13RRQGP72"
               }
             ]
           },
