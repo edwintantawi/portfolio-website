@@ -203,9 +203,9 @@
       },
       {
         "id": 8,
-        "top": true,
-        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fdevsantara.png?alt=media",
-        "name": "Devsantara",
+        "top": false,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fpublic-blog-app.png?alt=media",
+        "name": "Public blog app",
         "stack": "Next JS, Firebase, StyledComponent",
         "category": "Personal Project",
         "url": "https://devsantara.vercel.app/"
@@ -218,6 +218,15 @@
         "stack": "Next JS, Tailwindcss",
         "category": "Personal Project",
         "url": "https://airbnb-clone-app.vercel.app/"
+      },
+      {
+        "id": 10,
+        "top": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fdevsantara.png?alt=media",
+        "name": "Devsantara",
+        "stack": "Next JS, Tailwindcss, Markdown",
+        "category": "Personal Project",
+        "url": "https://devsantara.netlify.app/"
       }
     ]
   },
