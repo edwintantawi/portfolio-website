@@ -13,8 +13,8 @@ const AppNav = () => {
   const activeLink = (url) => {
     const className =
       url === pathname
-        ? 'font-bold text-white hover:text-white lg:hover:text-orange lg:text-orange bg-orange '
-        : 'bg-light-gray bg-opacity-30 hover:text-orange';
+        ? 'font-bold text-white hover:text-white lg:hover:text-primary lg:text-primary bg-primary '
+        : 'bg-light-gray bg-opacity-30 hover:text-primary';
     return className;
   };
 

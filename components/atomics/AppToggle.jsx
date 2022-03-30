@@ -9,7 +9,7 @@ const AppToggle = ({ active, onClick }) => (
     style={{ WebkitTapHighlightColor: 'transparent' }}
   >
     <span
-      className={`w-full h-[2px] bg-orange transform origin-top-right transition duration-500 ${
+      className={`w-full h-[2px] bg-primary transform origin-top-right transition duration-500 ${
         active && '-rotate-45 -translate-x-1 -translate-y-px bg-black'
       }`}
     />
@@ -19,7 +19,7 @@ const AppToggle = ({ active, onClick }) => (
       } `}
     />
     <span
-      className={`w-full h-[2px] bg-orange transform origin-bottom-right transition duration-500 ${
+      className={`w-full h-[2px] bg-primary transform origin-bottom-right transition duration-500 ${
         active && 'rotate-45 translate-y-1 -translate-x-1'
       }`}
     />

@@ -18,13 +18,13 @@ const AppSide = () => (
                   aria-label={item.name}
                 >
                   <i
-                    className={`${item.icon} text-2xl transition duration-300 text-gray hover:text-orange transform hover:-translate-y-1`}
+                    className={`${item.icon} text-2xl transition duration-300 text-gray hover:text-primary transform hover:-translate-y-1`}
                   />
                 </a>
               </li>
             ))}
         </ul>
-        <div className="h-28 w-[2px] bg-orange mt-5" />
+        <div className="h-28 w-[2px] bg-primary mt-5" />
       </aside>
     </Fade>
     <Fade bottom>
@@ -34,14 +34,14 @@ const AppSide = () => (
             <a
               key={item.id}
               href={`mailto:${item.username}`}
-              className="text-gray transition duration-300 hover:text-orange tracking-widest"
+              className="text-gray transition duration-300 hover:text-primary tracking-widest"
               style={{ writingMode: 'tb-rl' }}
             >
               {item.username}
             </a>
           )
         )}
-        <div className="h-28 w-[2px] bg-orange mt-5" />
+        <div className="h-28 w-[2px] bg-primary mt-5" />
       </aside>
     </Fade>
   </div>

@@ -27,7 +27,7 @@ const Resume = () => (
                       href={listItem.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-black hover:text-orange"
+                      className="text-black hover:text-primary"
                       title={listItem.level}
                     >
                       {listItem.name}

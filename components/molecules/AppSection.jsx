@@ -9,7 +9,7 @@ const AppSection = ({ title, children, decoration, noSeparator }) => {
     return (
       <h2 className="text-xl lg:text-2xl font-bold mb-0 text-center">
         {titleStart}
-        <span className="text-orange"> {titleEnd}</span>
+        <span className="text-primary"> {titleEnd}</span>
       </h2>
     );
   };

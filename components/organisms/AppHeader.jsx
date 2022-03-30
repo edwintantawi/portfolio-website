@@ -9,7 +9,7 @@ const AppHeader = ({ title, description }) => {
 
     return (
       <h1 className="text-4xl lg:text-6xl font-bold text-black">
-        <span className="text-orange">{titleStart}</span>
+        <span className="text-primary">{titleStart}</span>
         {titleEnd}
       </h1>
     );
