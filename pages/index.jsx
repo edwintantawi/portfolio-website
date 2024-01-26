@@ -60,10 +60,11 @@ const Home = () => (
             ))}
         </div>
         <div className="text-center py-7">
-          <Link href="/projects" passHref>
-            <a className="text-xs transition duration-300 md:text-sm text-gray hover:text-primary">
-              Show all my projects <i className="fas fa-chevron-right" />
-            </a>
+          <Link
+            href="/projects"
+            className="text-xs transition duration-300 md:text-sm text-gray hover:text-primary"
+          >
+            Show all my projects <i className="fas fa-chevron-right" />
           </Link>
         </div>
       </AppSection>

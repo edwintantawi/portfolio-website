@@ -53,15 +53,13 @@ const AppNav = () => {
           isActiveToggler && 'bg-white'
         } ${isActiveNav && 'bg-white'} px-3 md:px-0 py-3 md:py-0`}
       >
-        <Link href="/" passHref>
-          <a className="flex items-center">
-            <Image
-              src="/edwintantawi.svg"
-              alt="Edwin Tantawi"
-              width={40}
-              height={40}
-            />
-          </a>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/edwintantawi.svg"
+            alt="Edwin Tantawi"
+            width={40}
+            height={40}
+          />
         </Link>
 
         <AppToggle onClick={handleToggler} active={isActiveToggler} />
@@ -78,14 +76,13 @@ const AppNav = () => {
       >
         {USER.navigations.map((item) => (
           <li key={item.id}>
-            <Link href={item.url} passHref>
-              <a
-                className={`text-sm text-center transition block py-3 lg:py-0 rounded-lg lg:bg-transparent tracking-widest ${activeLink(
-                  item.url
-                )}`}
-              >
-                {item.name}
-              </a>
+            <Link
+              href={item.url}
+              className={`text-sm text-center transition block py-3 lg:py-0 rounded-lg lg:bg-transparent tracking-widest ${activeLink(
+                item.url
+              )}`}
+            >
+              {item.name}
             </Link>
           </li>
         ))}
