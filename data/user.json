@@ -1,7 +1,7 @@
 {
   "name": "Edwin Tantawi",
-  "status": "Front-End Web Developer",
-  "description": "I am a student from Indonesia, who focuses on web development, especially frontend web development.",
+  "status": "Front-End Web Engineer",
+  "description": "I am passionate and interested in the ever-growing field of Web Front-End development",
   "navigations": [
     {
       "id": 1,
@@ -158,7 +158,7 @@
       },
       {
         "id": 3,
-        "top": true,
+        "top": false,
         "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fwhatsapp-clone.png?alt=media",
         "name": "Whatsapp Clone",
         "stack": "React JS, CSS, Firebase",
@@ -202,31 +202,40 @@
         "url": "https://todonesia.netlify.app/"
       },
       {
-        "id": 8,
-        "top": false,
-        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fpublic-blog-app.png?alt=media",
-        "name": "Public blog app",
-        "stack": "Next JS, Firebase, StyledComponent",
-        "category": "Personal Project",
-        "url": "https://devsantara.vercel.app/"
-      },
-      {
         "id": 9,
         "top": true,
         "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fairbnb-clone.png?alt=media",
         "name": "Airbnb Clone",
         "stack": "Next JS, Tailwindcss",
         "category": "Personal Project",
-        "url": "https://airbnb-clone-app.vercel.app/"
+        "url": "https://airbnb-web-clone.vercel.app/"
       },
       {
         "id": 10,
-        "top": true,
+        "top": false,
         "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fdevsantara.png?alt=media",
         "name": "Devsantara",
         "stack": "Next JS, Tailwindcss, Markdown",
         "category": "Personal Project",
         "url": "https://devsantara.netlify.app/"
+      },
+      {
+        "id": 11,
+        "top": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Ffoodsery.png?alt=media",
+        "name": "Foodsery",
+        "stack": "Next JS, Tailwindcss, Spoonacular API",
+        "category": "Personal Project",
+        "url": "https://foodsery.vercel.app/"
+      },
+      {
+        "id": 12,
+        "top": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/edwintantawi-25f09.appspot.com/o/projects%2Fliquiz.png?alt=media",
+        "name": "LiQuiz",
+        "stack": "Next JS, Tailwindcss, OpenAI API",
+        "category": "Personal Project",
+        "url": "https://github.com/edwintantawi/liquiz"
       }
     ]
   },
@@ -307,17 +316,17 @@
       {
         "id": 1,
         "name": "My History",
-        "description": "Hi, hello, introduce my name is Edwin Tantawi, I come from Indonesia, precisely in Deli Serdang district, North Sumatra. Now I am a student at STMIK Mikroskil majoring in Informatics Engineering located in the city of Medan, North Sumatra, Indonesia."
+        "description": "Hi, hello, introduce my name is Edwin Tantawi, I come from Indonesia, precisely in Deli Serdang district, North Sumatra. Now I am a student at Universitas Mikroskil majoring in Informatics Engineering located in the city of Medan, North Sumatra, Indonesia."
       },
       {
         "id": 2,
         "name": "What am i Doing",
-        "description": "Now I'm focusing on college, and deepening web development, especially Frontend web development, now I'm studying Webpack, React JS, Next JS and Typescript. I am also actively building my portfolio by building personal projects."
+        "description": "Now I'm focusing on college, and deepening web development, especially Frontend web development, now I'm keeping up with the latest trends in technology and continually learning and applying new concepts. I am also actively building my portfolio by building personal projects."
       },
       {
         "id": 3,
         "name": "What Next",
-        "description": "My goal now is to master Frontend and Backend and mobile technology and become a Fullstack Developer. So that I can build a solution to an existing problem easily. Even though it is not easy and it takes a long time, I believe I can achieve it if I practice and learn continuously."
+        "description": "My goal now is to master Front-End and Back-End technology. So that I can build a solution to an existing problem easily. Even though it is not easy and it takes a long time, I believe I can achieve it if I practice and learn continuously."
       },
       {
         "id": 4,
@@ -330,20 +339,6 @@
     "title": "Resume",
     "description": "explore my experiences, rewards, and education, as well as my activeness",
     "contents": [
-      {
-        "id": 1,
-        "title": "Work Experience",
-        "contents": [
-          {
-            "id": 1,
-            "timestamp": "Present",
-            "name": "Develop personal projects",
-            "info": "Learning Progress",
-            "description": "Learn and gain skills through formal schools, online courses, and work on personal projects to hone skills",
-            "url": "#"
-          }
-        ]
-      },
       {
         "id": 2,
         "title": "Courses I Completed",
